@@ -13,9 +13,7 @@ class c_node_char {
 		c_node_char() {
 			this->next = 0;
 		}
-		~c_node_char() {
-			
-		}
+		~c_node_char() {}
 
 		inline char get_key() const {
 			return this->key;
